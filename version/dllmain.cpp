@@ -18,7 +18,7 @@ HMODULE g_hModule;
 void InitializeConsole() {
     FILE* pFile = nullptr;
     AllocConsole();
-    //SetConsoleTitle(_XOR_(L"Helldivers 2 DLL Proxy PoC"));
+    //SetConsoleTitle(_XOR_(L"BEASTHACKERZZZ"));
     freopen_s(&pFile, _XOR_("CONOUT$"), _XOR_("w"), stdout);
 }
 
@@ -45,7 +45,7 @@ void displayCheckboxes(const std::vector<Checkbox>& checkboxes, size_t selectedC
     system("cls"); // Clear the console (Windows specific)
 
     printf(_XOR_("[Init] - Helldiver 2 PoC DLL Proxy...\n"));
-    printf(_XOR_("[Init] - Thanks to cfemen and gir489...\n"));
+    printf(_XOR_("[Init] - Made by EDDY...\n"));
 
     printf(_XOR_("[Ready] : Select some of the features below by pressing the [Space] key.\n"));
     printf(_XOR_("[Ready] : Press [Enter] to run the feature you selected.\n"));
